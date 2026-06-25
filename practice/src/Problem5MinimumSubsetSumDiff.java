@@ -4,7 +4,7 @@
 //Hence create a DP matric from 0 to sum and then iterate through the last row to identify min value using formula sum-2*s1 should be minimum.
 //Iterate only half of the last row as s1 should be less than or equal to sum/2. The minimum value will be the answer.
 
-public class MinimumSubsetSumDiff {
+public class Problem5MinimumSubsetSumDiff {
     public static void main(String[] args) {
         int arr[] = {1,2,7};
         int sum=0;
